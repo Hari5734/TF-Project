@@ -39,6 +39,7 @@ resource "azurerm_resource_group" "rg" {
     location = "${var.location}"
     tags      = {
         Environment = "Terraform Demo"
+
     }
 }
 
